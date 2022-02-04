@@ -52,7 +52,7 @@
  ```testImplementation "com.google.truth:truth:1.1.3"```
                                                                                                                             
 <p align="justify">
- Zatim je potrebno otvoriti dolje navedene klase unutar <b>/Projekt</b> u Android Studiju i pokrenuti Unit testove.</p>
+ Zatim je potrebno otvoriti dolje navedene klase unutar <b>/BMI Calculator - Mobile App</b> u Android Studiju i pokrenuti Unit testove.</p>
  
   ```ConverterUtilTest```<br>
  ```CalculatorUtilTest```
