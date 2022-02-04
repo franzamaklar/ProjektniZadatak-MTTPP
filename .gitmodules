@@ -1,0 +1,3 @@
+[submodule "Katalon Studio Testing/Katalon"]
+	path = Katalon Studio Testing/Katalon
+	url = https://github.com/katalon-studio-samples/android-mobile-tests
