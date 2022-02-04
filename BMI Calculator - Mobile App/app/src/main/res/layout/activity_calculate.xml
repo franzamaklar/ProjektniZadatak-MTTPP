@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculateActivity"
+    android:background="@color/carbon_red_200">
+
+    <carbon.widget.RelativeLayout
+        android:id="@+id/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:orientation="horizontal"
+        >
+
+        <carbon.widget.RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/carbon_margin"
+            android:background="#ffffff"
+            app:carbon_cornerRadius="10dp"
+            app:carbon_elevation="10dp"
+            app:carbon_elevationShadowColor="@color/carbon_white_70"
+            >
+
+            <EditText
+                android:id="@+id/weightInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleIW"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/weightInput"
+                android:textAlignment="center"
+                android:textColorHint="@color/carbon_black_12"
+                android:textSize="16sp"
+
+                />
+
+            <TextView
+                android:id="@+id/titleIW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_semibold"
+                android:text="@string/weightTitle"
+                android:textAlignment="center"
+                android:textColor="@color/carbon_black_38"
+                android:textSize="25sp" />
+
+        </carbon.widget.RelativeLayout>
+
+    </carbon.widget.RelativeLayout>
+
+    <carbon.widget.RelativeLayout
+        android:id="@+id/secondRectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_below="@id/rectangle"
+        >
+
+        <carbon.widget.RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/carbon_margin"
+            android:background="#ffffff"
+            app:carbon_cornerRadius="10dp"
+            app:carbon_elevation="10dp"
+            app:carbon_elevationShadowColor="@color/carbon_white_70"
+            >
+
+            <EditText
+                android:id="@+id/heightInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleIH"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/montserrat"
+                android:hint="@string/heightInput"
+                android:textAlignment="center"
+                android:textColorHint="@color/carbon_black_12"
+                android:textSize="16sp"
+
+                />
+
+            <TextView
+                android:id="@+id/titleIH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_semibold"
+                android:text="@string/heightTitle"
+                android:textAlignment="center"
+                android:textColor="@color/carbon_black_38"
+                android:textSize="25sp" />
+
+        </carbon.widget.RelativeLayout>
+
+    </carbon.widget.RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondRectangle"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/classifaction"
+        android:textColor="@color/carbon_red_200"
+        android:fontFamily="@font/nunito_extralight"
+        />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button"
+        android:layout_below="@+id/secondRectangle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/calculateValue"
+        android:textColor="@color/carbon_red_200"
+        android:fontFamily="@font/nunito_extralight"
+        />
+
+    <TextView
+        android:id="@+id/results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calculateButton"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/carbon_white_70"
+        android:fontFamily="@font/montserrat"
+        android:text=""
+        android:textAlignment="center"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="370dp"
+    android:layout_height="345dp"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:layout_gravity="center"
+    android:background="@null">
+
+    <carbon.widget.RelativeLayout
+        android:id="@+id/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <carbon.widget.RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/carbon_margin"
+            android:background="@color/carbon_blueGrey_200"
+            app:carbon_cornerRadius="5dp"
+            app:carbon_elevation="1dp"
+            >
+
+            <TextView
+                android:id="@+id/classifaction"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@color/carbon_blueGrey_200"
+                android:textAlignment="center"
+                android:textColor="@color/carbon_white_70"
+                android:fontFamily="@font/nunito_semibold"
+                android:text="CLASSIFACTION:\nUnderweight: less than 18.5\nNormal: 18.5-24.9\nOverweight: 25-29.9\nObese: 30-34.9\nExtremely Obese: more than 35"
+                />
+
+        </carbon.widget.RelativeLayout>
+
+    </carbon.widget.RelativeLayout>
+
+</LinearLayout>

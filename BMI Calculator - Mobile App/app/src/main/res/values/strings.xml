@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BMI calculator</string>
+    <string name="loading">Loading...</string>
+    <string name="ibm_calculator">BMI calculator</string>
+    <string name="description">Welcome! This is an application to calculate your BMI index. BMI index is measure of quality of your weight/height ratio.</string>
+    <string name="calculate">Lets calculate!</string>
+    <string name="weightInput">Put your weight here in kilograms</string>
+    <string name="heightTitle">Height input</string>
+    <string name="heightInput">Put your height here in centrimeters</string>
+    <string name="weightTitle">Weight input</string>
+    <string name="calculateValue">Calculate!</string>
+    <string name="calculateAgain">CALCULATE AGAIN</string>
+    <string name="classifaction">View Classifaction</string>
+</resources>
