@@ -20,7 +20,7 @@
  <h3 align="left">Step 2</h3>
  <p> Skinete (<i>pull</i>) <b>\BMI Calculator - Mobile App</b> datoteku ovoga repozitorija i otvorite ju unutar okruženja Android Studio.</p>
  <h3 align="left">Step 3</h3>
- <p align="justify"> Kada se učitaju i sinkroniziraju svi <i>gradles</i>, pokrenete <i>Run</i> opciju te će vam se aplikacija instalirati na <i>Emulatoru</i> razvojnog okruženja. Možete također koristi ju instalirati i na vlastiti mobitel, ali prije toga morate odobriti napredne programske usluge u postavkama svojega mobitela.</p>
+ <p align="justify"> Kada se učitaju i sinkroniziraju svi <i>gradles</i>, pokrenete <i>Run</i> opciju te će vam se aplikacija instalirati na <i>Emulatoru</i> razvojnog okruženja. Možete ju također instalirati i na vlastiti mobitel, ali prije toga morate odobriti napredne programske usluge u postavkama svojega mobitela.</p>
 </p>
 
 <p align="justify">
@@ -52,7 +52,7 @@
  ```testImplementation "com.google.truth:truth:1.1.3"```
                                                                                                                             
 <p align="justify">
- Zatim je potrebno otvoriti dolje navedene klase unutar <b>/BMI Calculator - Mobile App</b> u Android Studiju i pokrenuti Unit testove.</p>
+ Zatim je potrebno otvoriti dolje navedene klase unutar <b>\BMI Calculator - Mobile App</b> u Android Studiju i pokrenuti Unit testove.</p>
  
   ```ConverterUtilTest```<br>
  ```CalculatorUtilTest```
